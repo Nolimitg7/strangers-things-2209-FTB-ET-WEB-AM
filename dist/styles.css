@@ -1,3 +1,40 @@
 body {
   font-family: verdana;
+  background-color: antiquewhite;
+
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+input,button{
+height: 2rem;
+
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+border-style: solid;
+}
+
+form > *{
+  margin: 0.5rem;
+}
+
+h1 {
+ text-align: center;
+}
+
+nav a {
+  height: 2rem;
+  width: 3rem;
+  margin: 50px;
+  justify-content: space-around;
 }
